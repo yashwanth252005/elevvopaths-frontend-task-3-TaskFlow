@@ -1,0 +1,50 @@
+.about_us_card {
+    --background-color: #f6f6f6;
+    --text-color: rgb(0, 0, 0);
+    --primary-color: #007bff;
+}
+
+
+.about_us_card {
+    border: '1px solid #e0e0e0';
+    border-radius: 8px;
+    padding: 16px;
+    font-weight: 600;
+    max-width: 500px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.about_us_card h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: var(--primary-color);
+}
+
+.about_us_card p {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+/* dark theme */
+
+[data-theme="dark"] {
+    --background-color: #01254cff;
+    --text-color: white;
+    --primary-color: #007bff;
+}
+
+[data-theme="dark"] .about_us_card {
+    background-color: #03376d;
+    border: '1px solid #0056b3';
+    box-shadow: 0 2px 8px rgba(255,255,255,0.1);
+}
+
+[data-theme="dark"] .about_us_card h2 {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .about_us_card p {
+    color: #ffffffc5;
+}

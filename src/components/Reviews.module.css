@@ -1,0 +1,12 @@
+.reviews_container {
+    --background-color: #f9f9f900;
+    --text-color: #007bff;
+}
+
+
+.reviews_container {
+    width: 600px;
+    padding: 2rem 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}

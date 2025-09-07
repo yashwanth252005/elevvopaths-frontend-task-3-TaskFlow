@@ -1,0 +1,13 @@
+
+.features{
+    scrollbar-width: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 20px;
+}
